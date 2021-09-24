@@ -29,7 +29,7 @@ a {
 }
 
 .content {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     text-align: justify;
 }
@@ -46,4 +46,29 @@ img {
 .image-right {
     float: right;    
     margin: 0 0 0 20px;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    h1 {
+        font-size: 80px;
+        line-height: 120px;
+    }
+    
+    h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    
+    ul {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .content {
+        width: 80%;
+    }
 }
