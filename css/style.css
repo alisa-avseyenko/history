@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman' , sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    background-image: url('../imgs/bg.jpeg');
+    background-repeat: repeat-x repeat-y;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center; 
+}
+
+ul {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+a {
+    color: #098383;
+}
+
+.content {
+    width: 60%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+img {
+    width: 50%;
+}
+
+.image-left {
+    float: left;    
+    margin: 0 20px 0px 0px;
+}
+
+.image-right {
+    float: right;    
+    margin: 0 0 0 20px;
+}
